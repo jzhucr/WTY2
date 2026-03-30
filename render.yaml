@@ -1,9 +1,17 @@
 services:
-  # A Docker web service
   - type: web
-    name: fastapi-example
-    runtime: python
+    name: wtyagent2
+    env: python
     plan: free
-    autoDeploy: false
+    rootDir: .
     buildCommand: pip install -r requirements.txt
-    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    startCommand: uvicorn api_server:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: OPENROUTER_API_KEY
+        sync: false
+      - key: OPENROUTER_MODEL
+        value: anthropic/claude-opus-4.6
+      - key: OPENROUTER_SITE_NAME
+        value: wty-agent
+      - key: OPENROUTER_SITE_URL
+        value: http://localhost
