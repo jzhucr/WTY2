@@ -1,0 +1,28 @@
+{
+  "target_messages": 35825,
+  "short_ratio": 0.3687,
+  "long_ratio": 0.0273,
+  "emoji_text_ratio": 0.041,
+  "question_ratio": 0.0357,
+  "exclamation_ratio": 0.0051,
+  "ellipsis_ratio": 0.0031,
+  "slang_ratio": 0.014,
+  "english_ratio": 0.0258,
+  "target_theme_hits": {
+    "study": 269,
+    "logistics": 78,
+    "emotion_stress": 451,
+    "tech": 53,
+    "humor_selfmock": 358,
+    "relationship": 961
+  },
+  "user_theme_hits": {
+    "study": 440,
+    "emotion_stress": 668,
+    "tech": 72,
+    "relationship": 1496,
+    "logistics": 112,
+    "humor_selfmock": 78
+  },
+  "user_name": "且听小猪叫"
+}

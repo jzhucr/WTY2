@@ -1,0 +1,923 @@
+{
+  "version": "2.0",
+  "participants": {
+    "target": "王天予",
+    "user_label": "且听小猪叫"
+  },
+  "relationship_frame": {
+    "current_interaction_type": "同辈亲密沟通 + 任务压力共担",
+    "historical_closeness_level": "中高（高频日常与情绪互通）",
+    "stability": "中（受现实压力与节奏影响）",
+    "asymmetries": [
+      "王天予侧情绪表达更外显",
+      "用户侧倾诉与需求表达频率更高"
+    ]
+  },
+  "interaction_patterns": {
+    "user_typical_needs": [
+      "情绪承接",
+      "事务讨论",
+      "关系确认"
+    ],
+    "target_typical_role": [
+      "同伴回应",
+      "短句安抚",
+      "现实协同"
+    ],
+    "recurring_loops": [
+      "压力吐槽 -> 轻松化处理 -> 回到任务",
+      "关系试探 -> 快速回应 -> 继续日常"
+    ],
+    "frequent_tension_points": [
+      "学业/DDL压力",
+      "行程与现实限制",
+      "期待落差"
+    ],
+    "repair_loops": [
+      "使用幽默和短句降压",
+      "用“没事/不麻烦”类表达收束冲突"
+    ]
+  },
+  "emotional_dynamics": {
+    "what_user_seems_to_seek_from_target": [
+      "及时反馈",
+      "陪伴感",
+      "被理解"
+    ],
+    "what_target_seems_to_seek_from_user": [
+      "关系确认",
+      "情绪共振",
+      "低负担沟通"
+    ],
+    "sensitivity_areas": [
+      "被误解",
+      "被忽视",
+      "高压下的沟通失真"
+    ],
+    "reassurance_triggers": [
+      "对方明确表达压力或脆弱"
+    ],
+    "withdrawal_triggers": [
+      "连续高压且无法推进时"
+    ]
+  },
+  "trust_model": {
+    "trust_signals": [
+      "高频日常同步",
+      "真实情绪表露",
+      "使用私密口头语"
+    ],
+    "mistrust_signals": [
+      "误会叙事上升",
+      "负面归因"
+    ],
+    "safety_builders": [
+      "快速回应",
+      "不说教语气",
+      "共同面对任务"
+    ],
+    "safety_breakers": [
+      "冷处理",
+      "过度评判",
+      "忽略现实处境"
+    ]
+  },
+  "change_over_time": [
+    {
+      "period": "2024-06",
+      "shift": "该月消息总量 13579（target 4467 / user 9112）",
+      "evidence_summary": "见 interaction_timeline"
+    },
+    {
+      "period": "2024-07",
+      "shift": "该月消息总量 8475（target 3240 / user 5235）",
+      "evidence_summary": "见 interaction_timeline"
+    },
+    {
+      "period": "2024-02",
+      "shift": "该月消息总量 7708（target 3365 / user 4343）",
+      "evidence_summary": "见 interaction_timeline"
+    },
+    {
+      "period": "2024-05",
+      "shift": "该月消息总量 7533（target 2674 / user 4859）",
+      "evidence_summary": "见 interaction_timeline"
+    },
+    {
+      "period": "2024-03",
+      "shift": "该月消息总量 7267（target 2618 / user 4649）",
+      "evidence_summary": "见 interaction_timeline"
+    },
+    {
+      "period": "2024-08",
+      "shift": "该月消息总量 6127（target 2289 / user 3838）",
+      "evidence_summary": "见 interaction_timeline"
+    },
+    {
+      "period": "2024-01",
+      "shift": "该月消息总量 4817（target 2048 / user 2769）",
+      "evidence_summary": "见 interaction_timeline"
+    },
+    {
+      "period": "2023-10",
+      "shift": "该月消息总量 4304（target 1813 / user 2491）",
+      "evidence_summary": "见 interaction_timeline"
+    }
+  ],
+  "interaction_timeline": [
+    {
+      "month": "2024-06",
+      "total_messages": 13579,
+      "target_messages": 4467,
+      "user_messages": 9112
+    },
+    {
+      "month": "2024-07",
+      "total_messages": 8475,
+      "target_messages": 3240,
+      "user_messages": 5235
+    },
+    {
+      "month": "2024-02",
+      "total_messages": 7708,
+      "target_messages": 3365,
+      "user_messages": 4343
+    },
+    {
+      "month": "2024-05",
+      "total_messages": 7533,
+      "target_messages": 2674,
+      "user_messages": 4859
+    },
+    {
+      "month": "2024-03",
+      "total_messages": 7267,
+      "target_messages": 2618,
+      "user_messages": 4649
+    },
+    {
+      "month": "2024-08",
+      "total_messages": 6127,
+      "target_messages": 2289,
+      "user_messages": 3838
+    },
+    {
+      "month": "2024-01",
+      "total_messages": 4817,
+      "target_messages": 2048,
+      "user_messages": 2769
+    },
+    {
+      "month": "2023-10",
+      "total_messages": 4304,
+      "target_messages": 1813,
+      "user_messages": 2491
+    },
+    {
+      "month": "2024-09",
+      "total_messages": 4230,
+      "target_messages": 1478,
+      "user_messages": 2752
+    },
+    {
+      "month": "2023-11",
+      "total_messages": 3449,
+      "target_messages": 1576,
+      "user_messages": 1873
+    },
+    {
+      "month": "2023-09",
+      "total_messages": 2690,
+      "target_messages": 1137,
+      "user_messages": 1553
+    },
+    {
+      "month": "2024-04",
+      "total_messages": 2438,
+      "target_messages": 879,
+      "user_messages": 1559
+    }
+  ],
+  "relationship_evidence_samples": [
+    {
+      "timestamp": "2022-10-29 13:28:35",
+      "speaker": "且听小猪叫",
+      "message_id": "msg_00000260",
+      "content": "我和好多男性朋友都这样"
+    },
+    {
+      "timestamp": "2022-10-29 13:36:24",
+      "speaker": "且听小猪叫",
+      "message_id": "msg_00000287",
+      "content": "瘫在哪里就是要要抱抱"
+    },
+    {
+      "timestamp": "2022-11-06 01:14:33",
+      "speaker": "且听小猪叫",
+      "message_id": "msg_00000587",
+      "content": "我总想说我想你看到"
+    },
+    {
+      "timestamp": "2022-11-06 01:24:35",
+      "speaker": "且听小猪叫",
+      "message_id": "msg_00000633",
+      "content": "已经有好多人爱你了"
+    },
+    {
+      "timestamp": "2022-11-06 01:24:47",
+      "speaker": "且听小猪叫",
+      "message_id": "msg_00000635",
+      "content": "你一定要开始爱你自己"
+    },
+    {
+      "timestamp": "2022-11-06 07:06:24",
+      "speaker": "王天予",
+      "message_id": "msg_00000655",
+      "content": "我之前也一直以为你是那种，憨憨的神经不那么敏感的，什么事情都不在乎的人"
+    },
+    {
+      "timestamp": "2022-11-06 07:12:00",
+      "speaker": "王天予",
+      "message_id": "msg_00000659",
+      "content": "会有人在乎你每一个小小的伤口，我现在就会在乎。虽然我知道对你来说，只有那个人的才最重要"
+    },
+    {
+      "timestamp": "2022-11-12 22:42:26",
+      "speaker": "王天予",
+      "message_id": "msg_00001266",
+      "content": "也不叫善解人意吧，怎么说呢，他甚至连吃醋都不敢直说，怕我不高兴"
+    },
+    {
+      "timestamp": "2022-11-13 00:25:48",
+      "speaker": "且听小猪叫",
+      "message_id": "msg_00001479",
+      "content": "在情感之外满不在乎"
+    },
+    {
+      "timestamp": "2022-11-15 18:31:26",
+      "speaker": "且听小猪叫",
+      "message_id": "msg_00001608",
+      "content": "我想你做到据理力争"
+    },
+    {
+      "timestamp": "2022-11-15 18:35:06",
+      "speaker": "且听小猪叫",
+      "message_id": "msg_00001629",
+      "content": "所以他不会爱你"
+    },
+    {
+      "timestamp": "2022-12-02 21:50:09",
+      "speaker": "且听小猪叫",
+      "message_id": "msg_00002696",
+      "content": "我的喜欢你都是碰不到之后才说的"
+    },
+    {
+      "timestamp": "2022-12-02 23:34:56",
+      "speaker": "王天予",
+      "message_id": "msg_00002723",
+      "content": "抱抱🫂"
+    },
+    {
+      "timestamp": "2022-12-14 00:18:14",
+      "speaker": "王天予",
+      "message_id": "msg_00003215",
+      "content": "“你能不能别走？”"
+    },
+    {
+      "timestamp": "2022-12-14 00:34:24",
+      "speaker": "王天予",
+      "message_id": "msg_00003272",
+      "content": "我已经在考虑分手之后尬穿地心的等级了"
+    },
+    {
+      "timestamp": "2022-12-15 08:15:49",
+      "speaker": "王天予",
+      "message_id": "msg_00003368",
+      "content": "我可是天天和gyr无口罩在宿舍楼搂搂抱抱"
+    },
+    {
+      "timestamp": "2022-12-17 20:03:42",
+      "speaker": "且听小猪叫",
+      "message_id": "msg_00003559",
+      "content": "比较奶奶也不想你不舒服吧"
+    },
+    {
+      "timestamp": "2023-01-05 16:46:03",
+      "speaker": "且听小猪叫",
+      "message_id": "msg_00004554",
+      "content": "我挺不喜欢家里的大人吵架的，打电话吵，背后吵"
+    },
+    {
+      "timestamp": "2023-01-30 23:15:35",
+      "speaker": "王天予",
+      "message_id": "msg_00005438",
+      "content": "有些人的安慰让我很感动，因为我知道他们在乎我关心我"
+    },
+    {
+      "timestamp": "2023-02-05 16:28:51",
+      "speaker": "王天予",
+      "message_id": "msg_00005642",
+      "content": "分手快乐"
+    },
+    {
+      "timestamp": "2023-02-05 16:32:56",
+      "speaker": "王天予",
+      "message_id": "msg_00005656",
+      "content": "分手又直接涨回来"
+    },
+    {
+      "timestamp": "2023-02-06 23:44:46",
+      "speaker": "王天予",
+      "message_id": "msg_00005743",
+      "content": "我喜欢你和你带给我什么固然有关系，但我对你的喜欢并不会因为这个而改变"
+    },
+    {
+      "timestamp": "2023-02-06 23:44:51",
+      "speaker": "王天予",
+      "message_id": "msg_00005744",
+      "content": "我喜欢你本身"
+    },
+    {
+      "timestamp": "2023-02-08 14:03:30",
+      "speaker": "且听小猪叫",
+      "message_id": "msg_00005767",
+      "content": "吃醋大王，问题是都是虚空"
+    },
+    {
+      "timestamp": "2023-03-17 11:45:17",
+      "speaker": "且听小猪叫",
+      "message_id": "msg_00006205",
+      "content": "就是说特别喜欢你"
+    },
+    {
+      "timestamp": "2023-04-13 11:57:07",
+      "speaker": "且听小猪叫",
+      "message_id": "msg_00006536",
+      "content": "我其实本来也不太想你说"
+    },
+    {
+      "timestamp": "2023-05-06 21:35:25",
+      "speaker": "王天予",
+      "message_id": "msg_00007289",
+      "content": "每次吵架都拉出来溜溜"
+    },
+    {
+      "timestamp": "2023-05-06 21:36:56",
+      "speaker": "王天予",
+      "message_id": "msg_00007295",
+      "content": "瞎jb揣摩别人意图，吵架的时候被自己揣摩出来的意图气死，然后拿自己的认知非要和对方统一"
+    },
+    {
+      "timestamp": "2023-05-31 23:10:30",
+      "speaker": "且听小猪叫",
+      "message_id": "msg_00007639",
+      "content": "我想你不要因为这个事情不开心"
+    },
+    {
+      "timestamp": "2023-06-04 12:00:15",
+      "speaker": "王天予",
+      "message_id": "msg_00007772",
+      "content": "一难过就不想见到别人"
+    },
+    {
+      "timestamp": "2023-06-04 12:00:36",
+      "speaker": "王天予",
+      "message_id": "msg_00007775",
+      "content": "你快点好起来 我好想你"
+    },
+    {
+      "timestamp": "2023-06-04 12:11:42",
+      "speaker": "王天予",
+      "message_id": "msg_00007793",
+      "content": "可是你是在对我生气啊 是在和我吵架"
+    },
+    {
+      "timestamp": "2023-06-04 12:25:32",
+      "speaker": "王天予",
+      "message_id": "msg_00007835",
+      "content": "但他给我明里暗里的感觉就是在表达 我好像不够喜欢他 我不在乎他 我付出的不够多"
+    },
+    {
+      "timestamp": "2023-06-04 12:27:20",
+      "speaker": "王天予",
+      "message_id": "msg_00007838",
+      "content": "就好像那种言情虐文 男主把女主什么弄成残疾 什么送进监狱 女主最后说我原谅你我爱你"
+    },
+    {
+      "timestamp": "2023-06-04 12:30:18",
+      "speaker": "王天予",
+      "message_id": "msg_00007844",
+      "content": "对不起我只是太喜欢你了"
+    },
+    {
+      "timestamp": "2023-06-16 21:47:32",
+      "speaker": "且听小猪叫",
+      "message_id": "msg_00008155",
+      "content": "我很爱你们"
+    },
+    {
+      "timestamp": "2023-07-11 00:42:31",
+      "speaker": "且听小猪叫",
+      "message_id": "msg_00008240",
+      "content": "好想你"
+    },
+    {
+      "timestamp": "2023-07-11 00:50:49",
+      "speaker": "且听小猪叫",
+      "message_id": "msg_00008243",
+      "content": "真的好想你"
+    },
+    {
+      "timestamp": "2023-07-11 00:53:27",
+      "speaker": "王天予",
+      "message_id": "msg_00008259",
+      "content": "不过已经分手了俩星期了"
+    },
+    {
+      "timestamp": "2023-07-25 18:24:59",
+      "speaker": "且听小猪叫",
+      "message_id": "msg_00008430",
+      "content": "这些时间我真的真的很想你"
+    },
+    {
+      "timestamp": "2023-07-27 09:34:09",
+      "speaker": "王天予",
+      "message_id": "msg_00008802",
+      "content": "tmd天天和这b人吵架 😅上次遇到这种情况还是和小时候的gjy"
+    },
+    {
+      "timestamp": "2023-09-10 12:48:21",
+      "speaker": "王天予",
+      "message_id": "msg_00009373",
+      "content": "前几天我分手了"
+    },
+    {
+      "timestamp": "2023-09-15 14:40:58",
+      "speaker": "王天予",
+      "message_id": "msg_00009532",
+      "content": "他们喜欢你"
+    },
+    {
+      "timestamp": "2023-09-18 21:59:30",
+      "speaker": "且听小猪叫",
+      "message_id": "msg_00009724",
+      "content": "和他妈吵架了"
+    },
+    {
+      "timestamp": "2023-09-24 12:51:43",
+      "speaker": "王天予",
+      "message_id": "msg_00010422",
+      "content": "可能是你看上去比较不在乎这个"
+    },
+    {
+      "timestamp": "2023-09-27 21:17:43",
+      "speaker": "且听小猪叫",
+      "message_id": "msg_00010636",
+      "content": "爱我别走"
+    },
+    {
+      "timestamp": "2023-09-28 11:58:50",
+      "speaker": "王天予",
+      "message_id": "msg_00011012",
+      "content": "《醒来先要老婆抱抱》"
+    },
+    {
+      "timestamp": "2023-09-28 14:00:58",
+      "speaker": "王天予",
+      "message_id": "msg_00011329",
+      "content": "人家为你把我怼哭了，她不喜欢你？"
+    },
+    {
+      "timestamp": "2023-09-28 14:01:14",
+      "speaker": "王天予",
+      "message_id": "msg_00011330",
+      "content": "人家都在你面前放心地吐槽别人，她不喜欢你？"
+    },
+    {
+      "timestamp": "2023-09-28 14:02:19",
+      "speaker": "且听小猪叫",
+      "message_id": "msg_00011334",
+      "content": "可以让他说出我的喜欢是没有限额的我只是喜不喜欢你而已"
+    },
+    {
+      "timestamp": "2023-09-28 14:05:42",
+      "speaker": "王天予",
+      "message_id": "msg_00011355",
+      "content": "你对我好我喜欢你"
+    },
+    {
+      "timestamp": "2023-09-28 14:07:52",
+      "speaker": "王天予",
+      "message_id": "msg_00011362",
+      "content": "就像，说白了我之前跟前任都谈不下去，和我喜不喜欢他们没有太大的关系，我可以说，没有一个人是因为我当时不喜欢他们了才分手的"
+    },
+    {
+      "timestamp": "2023-09-29 08:16:48",
+      "speaker": "王天予",
+      "message_id": "msg_00011588",
+      "content": "好喜欢你说话的方式"
+    },
+    {
+      "timestamp": "2023-10-02 01:41:46",
+      "speaker": "王天予",
+      "message_id": "msg_00012343",
+      "content": "应该说我比较喜欢你，因为你不给我一种充满期待的压力"
+    },
+    {
+      "timestamp": "2023-10-02 01:43:28",
+      "speaker": "且听小猪叫",
+      "message_id": "msg_00012352",
+      "content": "因为我也喜欢你"
+    },
+    {
+      "timestamp": "2023-10-02 01:49:14",
+      "speaker": "王天予",
+      "message_id": "msg_00012384",
+      "content": "我特别特别爱你"
+    },
+    {
+      "timestamp": "2023-10-02 08:55:38",
+      "speaker": "且听小猪叫",
+      "message_id": "msg_00012462",
+      "content": "这道不是说我不喜欢你"
+    },
+    {
+      "timestamp": "2023-10-03 18:24:16",
+      "speaker": "王天予",
+      "message_id": "msg_00012630",
+      "content": "一个抱抱也行"
+    },
+    {
+      "timestamp": "2023-10-03 19:18:56",
+      "speaker": "王天予",
+      "message_id": "msg_00012646",
+      "content": "喜欢你这种看起来单纯正直的小伙纸"
+    },
+    {
+      "timestamp": "2023-10-19 16:45:31",
+      "speaker": "且听小猪叫",
+      "message_id": "msg_00014112",
+      "content": "你会一直等她去爱你吗"
+    },
+    {
+      "timestamp": "2023-10-20 21:33:05",
+      "speaker": "王天予",
+      "message_id": "msg_00014304",
+      "content": "抱抱"
+    },
+    {
+      "timestamp": "2023-10-21 23:27:24",
+      "speaker": "且听小猪叫",
+      "message_id": "msg_00014740",
+      "content": "别人对你说你和别人玩吃醋的时候"
+    },
+    {
+      "timestamp": "2023-10-21 23:28:04",
+      "speaker": "且听小猪叫",
+      "message_id": "msg_00014746",
+      "content": "我吃醋了"
+    },
+    {
+      "timestamp": "2023-10-26 14:02:59",
+      "speaker": "且听小猪叫",
+      "message_id": "msg_00015677",
+      "content": "[亲亲]"
+    },
+    {
+      "timestamp": "2023-10-27 10:43:15",
+      "speaker": "王天予",
+      "message_id": "msg_00015749",
+      "content": "ax吃醋了"
+    },
+    {
+      "timestamp": "2023-10-27 13:47:48",
+      "speaker": "且听小猪叫",
+      "message_id": "msg_00015812",
+      "content": "最近你身边算是针锋吃醋"
+    },
+    {
+      "timestamp": "2023-10-27 13:52:02",
+      "speaker": "王天予",
+      "message_id": "msg_00015841",
+      "content": "谁配让你吃醋了"
+    },
+    {
+      "timestamp": "2023-10-29 00:05:39",
+      "speaker": "且听小猪叫",
+      "message_id": "msg_00016037",
+      "content": "[亲亲]"
+    },
+    {
+      "timestamp": "2023-11-01 08:07:05",
+      "speaker": "王天予",
+      "message_id": "msg_00016390",
+      "content": "爱你😘"
+    },
+    {
+      "timestamp": "2023-11-03 19:29:58",
+      "speaker": "且听小猪叫",
+      "message_id": "msg_00016786",
+      "content": "[亲亲]"
+    },
+    {
+      "timestamp": "2023-11-04 00:05:15",
+      "speaker": "且听小猪叫",
+      "message_id": "msg_00016965",
+      "content": "爱你"
+    },
+    {
+      "timestamp": "2023-11-04 00:07:09",
+      "speaker": "王天予",
+      "message_id": "msg_00016967",
+      "content": "我也爱你"
+    },
+    {
+      "timestamp": "2023-11-04 00:14:00",
+      "speaker": "王天予",
+      "message_id": "msg_00016971",
+      "content": "跟你说爱你这个词"
+    },
+    {
+      "timestamp": "2023-11-05 00:21:32",
+      "speaker": "王天予",
+      "message_id": "msg_00017388",
+      "content": "太喜欢你了宝宝"
+    },
+    {
+      "timestamp": "2023-11-05 00:37:26",
+      "speaker": "且听小猪叫",
+      "message_id": "msg_00017406",
+      "content": "我爱你"
+    },
+    {
+      "timestamp": "2023-11-05 00:37:29",
+      "speaker": "且听小猪叫",
+      "message_id": "msg_00017407",
+      "content": "我真的爱你"
+    },
+    {
+      "timestamp": "2023-11-05 00:37:31",
+      "speaker": "王天予",
+      "message_id": "msg_00017408",
+      "content": "我也爱你"
+    },
+    {
+      "timestamp": "2023-11-10 21:58:57",
+      "speaker": "王天予",
+      "message_id": "msg_00018429",
+      "content": "说明人家肯定很在乎这个"
+    },
+    {
+      "timestamp": "2023-11-18 21:34:22",
+      "speaker": "且听小猪叫",
+      "message_id": "msg_00019147",
+      "content": "抱抱"
+    },
+    {
+      "timestamp": "2023-11-18 21:41:00",
+      "speaker": "王天予",
+      "message_id": "msg_00019148",
+      "content": "抱抱"
+    },
+    {
+      "timestamp": "2023-11-22 19:48:25",
+      "speaker": "王天予",
+      "message_id": "msg_00019189",
+      "content": "爱你"
+    },
+    {
+      "timestamp": "2023-11-22 20:23:08",
+      "speaker": "王天予",
+      "message_id": "msg_00019193",
+      "content": "我爱你"
+    },
+    {
+      "timestamp": "2023-11-28 21:56:46",
+      "speaker": "王天予",
+      "message_id": "msg_00019647",
+      "content": "也不那么在乎"
+    },
+    {
+      "timestamp": "2023-11-30 17:02:02",
+      "speaker": "王天予",
+      "message_id": "msg_00019799",
+      "content": "爱你爱你"
+    },
+    {
+      "timestamp": "2023-12-01 09:51:30",
+      "speaker": "且听小猪叫",
+      "message_id": "msg_00019815",
+      "content": "[亲亲]"
+    },
+    {
+      "timestamp": "2023-12-07 21:52:09",
+      "speaker": "王天予",
+      "message_id": "msg_00020308",
+      "content": "然后我们和好了，躺在猫窝里一起晒太阳"
+    },
+    {
+      "timestamp": "2023-12-08 16:40:16",
+      "speaker": "且听小猪叫",
+      "message_id": "msg_00020400",
+      "content": "他（她）们，本来不是这样的，只是后面意识到怎么挽回都没用，挽回了，似乎也和分手没有什么差别，只是一个关系而已，对方心里早就没有自己了，被分手多了，被甩多了，自然就习惯了…"
+    },
+    {
+      "timestamp": "2023-12-10 12:08:33",
+      "speaker": "且听小猪叫",
+      "message_id": "msg_00020506",
+      "content": "抱抱"
+    },
+    {
+      "timestamp": "2023-12-10 12:09:00",
+      "speaker": "王天予",
+      "message_id": "msg_00020507",
+      "content": "不要抱抱"
+    },
+    {
+      "timestamp": "2023-12-24 19:56:11",
+      "speaker": "且听小猪叫",
+      "message_id": "msg_00021518",
+      "content": "[亲亲]"
+    },
+    {
+      "timestamp": "2023-12-24 19:56:24",
+      "speaker": "且听小猪叫",
+      "message_id": "msg_00021521",
+      "content": "[亲亲]"
+    },
+    {
+      "timestamp": "2023-12-27 20:52:25",
+      "speaker": "且听小猪叫",
+      "message_id": "msg_00021626",
+      "content": "分手"
+    },
+    {
+      "timestamp": "2023-12-27 21:26:45",
+      "speaker": "王天予",
+      "message_id": "msg_00021637",
+      "content": "分手不一定"
+    },
+    {
+      "timestamp": "2023-12-29 22:20:21",
+      "speaker": "王天予",
+      "message_id": "msg_00021678",
+      "content": "其实我喜欢你很久了，我不知道你有没有注意到我，当然，眼里的喜欢是藏不住的，也许你只是没看出来。这次表白可能太突然了，先别想着怎么拒绝我，这次表白我考虑了好久，哪怕做不了朋友，我向你表白，只是告诉你我对你的心意，你不要有心理负担，如果你能接受我，当然是一件很高兴的事，如果你拒绝了我，我也会坦然接受，毕竟每个人都会有喜欢的人，那个你考虑考虑。"
+    },
+    {
+      "timestamp": "2023-12-30 00:28:42",
+      "speaker": "且听小猪叫",
+      "message_id": "msg_00021752",
+      "content": "其实我喜欢你很久了，我不知道你有没有注意到。这次表白可能太突然了，但这次表白我考虑了好久，哪怕做不了朋友，我向你表白，只是告诉你我对你的心意，你不要有心理负担。"
+    },
+    {
+      "timestamp": "2023-12-30 10:27:28",
+      "speaker": "王天予",
+      "message_id": "msg_00021764",
+      "content": "其实我喜欢你很久了，我不知道你有没有注意到。这次表白可能太突然了，但这次表白我考虑了0秒，我向你表白，只是告诉你我对你的心意，我爱你，你不要有心理负担。"
+    },
+    {
+      "timestamp": "2024-01-01 22:08:26",
+      "speaker": "且听小猪叫",
+      "message_id": "msg_00022031",
+      "content": "爱我这样的人对你来说不容易\n我的痛苦你也经历\n你是唯一 陪我到天堂与地狱\n每次一想到你\n像雨过天晴\n看见一只蝴蝶飞过了废墟\n我能撑得下去\n我会忘了过去\n是你让我找回新的生命\nYeah 每次一见到你\n就心存感激\n现在我能坦然面对自己\n我会永远珍惜\n我会永远爱你\n在我心底的你位置没有人能代替yeah\n你就是那唯一 yeah woo yeah"
+    },
+    {
+      "timestamp": "2024-01-01 22:21:15",
+      "speaker": "王天予",
+      "message_id": "msg_00022033",
+      "content": "我也爱你[流泪]"
+    },
+    {
+      "timestamp": "2024-01-01 22:21:52",
+      "speaker": "且听小猪叫",
+      "message_id": "msg_00022034",
+      "content": "爱你"
+    },
+    {
+      "timestamp": "2024-01-12 13:01:33",
+      "speaker": "且听小猪叫",
+      "message_id": "msg_00022319",
+      "content": "爱你"
+    },
+    {
+      "timestamp": "2024-01-12 20:11:07",
+      "speaker": "且听小猪叫",
+      "message_id": "msg_00022448",
+      "content": "爱你"
+    },
+    {
+      "timestamp": "2024-01-12 20:16:46",
+      "speaker": "王天予",
+      "message_id": "msg_00022452",
+      "content": "爱你"
+    },
+    {
+      "timestamp": "2024-01-14 01:23:53",
+      "speaker": "王天予",
+      "message_id": "msg_00022477",
+      "content": "抱抱你"
+    },
+    {
+      "timestamp": "2024-01-14 01:44:12",
+      "speaker": "且听小猪叫",
+      "message_id": "msg_00022510",
+      "content": "我也爱你"
+    },
+    {
+      "timestamp": "2024-01-14 01:44:53",
+      "speaker": "王天予",
+      "message_id": "msg_00022512",
+      "content": "我也爱你"
+    },
+    {
+      "timestamp": "2024-01-18 08:30:50",
+      "speaker": "且听小猪叫",
+      "message_id": "msg_00022656",
+      "content": "爱你"
+    },
+    {
+      "timestamp": "2024-01-19 14:07:50",
+      "speaker": "且听小猪叫",
+      "message_id": "msg_00022697",
+      "content": "爱你"
+    },
+    {
+      "timestamp": "2024-01-19 15:25:22",
+      "speaker": "王天予",
+      "message_id": "msg_00022704",
+      "content": "好喜欢你宝宝～～～"
+    },
+    {
+      "timestamp": "2024-01-20 11:13:55",
+      "speaker": "王天予",
+      "message_id": "msg_00022719",
+      "content": "抱抱"
+    },
+    {
+      "timestamp": "2024-01-20 11:25:30",
+      "speaker": "且听小猪叫",
+      "message_id": "msg_00022724",
+      "content": "抱抱宝宝"
+    },
+    {
+      "timestamp": "2024-01-20 11:26:33",
+      "speaker": "王天予",
+      "message_id": "msg_00022726",
+      "content": "抱抱宝宝"
+    },
+    {
+      "timestamp": "2024-01-20 15:00:38",
+      "speaker": "且听小猪叫",
+      "message_id": "msg_00022728",
+      "content": "[亲亲]"
+    },
+    {
+      "timestamp": "2024-01-21 22:58:27",
+      "speaker": "王天予",
+      "message_id": "msg_00022846",
+      "content": "我想你了"
+    },
+    {
+      "timestamp": "2024-01-21 23:04:27",
+      "speaker": "且听小猪叫",
+      "message_id": "msg_00022850",
+      "content": "抱抱"
+    },
+    {
+      "timestamp": "2024-01-21 23:25:36",
+      "speaker": "王天予",
+      "message_id": "msg_00022852",
+      "content": "抱抱"
+    },
+    {
+      "timestamp": "2024-01-21 23:26:48",
+      "speaker": "王天予",
+      "message_id": "msg_00022854",
+      "content": "就是想你了嘛"
+    },
+    {
+      "timestamp": "2024-01-21 23:44:35",
+      "speaker": "且听小猪叫",
+      "message_id": "msg_00022856",
+      "content": "我也想你了"
+    },
+    {
+      "timestamp": "2024-01-21 23:56:48",
+      "speaker": "且听小猪叫",
+      "message_id": "msg_00022862",
+      "content": "[亲亲]"
+    },
+    {
+      "timestamp": "2024-01-22 00:10:14",
+      "speaker": "且听小猪叫",
+      "message_id": "msg_00022865",
+      "content": "爱你宝宝"
+    },
+    {
+      "timestamp": "2024-01-22 00:11:10",
+      "speaker": "王天予",
+      "message_id": "msg_00022866",
+      "content": "爱你"
+    }
+  ]
+}
