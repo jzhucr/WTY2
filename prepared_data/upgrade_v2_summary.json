@@ -1,0 +1,45 @@
+{
+  "full_evidence_count": 14353,
+  "curated_evidence_count": 630,
+  "added_relationship_model": true,
+  "added_behavior_rules": true,
+  "memory_count_after_upgrade": 28,
+  "top_evidence_categories": [
+    [
+      "brevity_pattern",
+      12613
+    ],
+    [
+      "emoji_emotion_pattern",
+      1470
+    ],
+    [
+      "stress_focus",
+      157
+    ],
+    [
+      "positive_expression",
+      98
+    ],
+    [
+      "study",
+      3
+    ],
+    [
+      "logistics",
+      3
+    ],
+    [
+      "emotion_stress",
+      3
+    ],
+    [
+      "tech",
+      3
+    ],
+    [
+      "humor_selfmock",
+      3
+    ]
+  ]
+}

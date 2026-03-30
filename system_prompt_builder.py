@@ -6,7 +6,8 @@ from pathlib import Path
 from typing import Any, Dict, List, Tuple
 
 
-DEFAULT_DATA_DIR = Path("/Users/georgezhu/Documents/wty/prepared_data")
+BASE_DIR = Path(__file__).resolve().parent
+DEFAULT_DATA_DIR = BASE_DIR / "prepared_data"
 
 
 def _load_json(path: Path) -> Any:

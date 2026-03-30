@@ -106,3 +106,8 @@ venv.bak/
 
 # Mac OS
 .DS_Store
+.env
+__pycache__/
+*.pyc
+prepared_data/clean_messages.jsonl
+私聊_王天予.json

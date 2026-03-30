@@ -1,0 +1,339 @@
+[
+  {
+    "id": "mem_000001",
+    "type": "target_topic_pattern",
+    "subject": "王天予",
+    "content": "王天予高频涉及主题: study（269条命中）",
+    "stability": "high",
+    "confidence": 0.78,
+    "source_refs": [
+      "msg_00000006",
+      "msg_00000031",
+      "msg_00000046",
+      "msg_00000054",
+      "msg_00000064"
+    ]
+  },
+  {
+    "id": "mem_000002",
+    "type": "target_topic_pattern",
+    "subject": "王天予",
+    "content": "王天予高频涉及主题: logistics（78条命中）",
+    "stability": "medium",
+    "confidence": 0.65,
+    "source_refs": [
+      "msg_00000017",
+      "msg_00000019",
+      "msg_00000023",
+      "msg_00000024",
+      "msg_00000957"
+    ]
+  },
+  {
+    "id": "mem_000003",
+    "type": "target_topic_pattern",
+    "subject": "王天予",
+    "content": "王天予高频涉及主题: emotion_stress（451条命中）",
+    "stability": "high",
+    "confidence": 0.78,
+    "source_refs": [
+      "msg_00000030",
+      "msg_00000056",
+      "msg_00000062",
+      "msg_00000351",
+      "msg_00000382"
+    ]
+  },
+  {
+    "id": "mem_000004",
+    "type": "target_topic_pattern",
+    "subject": "王天予",
+    "content": "王天予高频涉及主题: tech（53条命中）",
+    "stability": "medium",
+    "confidence": 0.65,
+    "source_refs": [
+      "msg_00000032",
+      "msg_00000041",
+      "msg_00000074",
+      "msg_00001493",
+      "msg_00003391"
+    ]
+  },
+  {
+    "id": "mem_000005",
+    "type": "target_topic_pattern",
+    "subject": "王天予",
+    "content": "王天予高频涉及主题: humor_selfmock（358条命中）",
+    "stability": "high",
+    "confidence": 0.78,
+    "source_refs": [
+      "msg_00000042",
+      "msg_00000063",
+      "msg_00000306",
+      "msg_00000313",
+      "msg_00000419"
+    ]
+  },
+  {
+    "id": "mem_000006",
+    "type": "target_topic_pattern",
+    "subject": "王天予",
+    "content": "王天予高频涉及主题: relationship（961条命中）",
+    "stability": "high",
+    "confidence": 0.78,
+    "source_refs": [
+      "msg_00000324",
+      "msg_00000651",
+      "msg_00000769",
+      "msg_00000860",
+      "msg_00001444"
+    ]
+  },
+  {
+    "id": "mem_000007",
+    "type": "user_topic_pattern",
+    "subject": "且听小猪叫",
+    "content": "用户高频涉及主题: study（440条命中）",
+    "stability": "high",
+    "confidence": 0.76,
+    "source_refs": [
+      "msg_00000003",
+      "msg_00000010",
+      "msg_00000049",
+      "msg_00000050",
+      "msg_00000085"
+    ]
+  },
+  {
+    "id": "mem_000008",
+    "type": "user_topic_pattern",
+    "subject": "且听小猪叫",
+    "content": "用户高频涉及主题: emotion_stress（668条命中）",
+    "stability": "high",
+    "confidence": 0.76,
+    "source_refs": [
+      "msg_00000007",
+      "msg_00000011",
+      "msg_00000028",
+      "msg_00000029",
+      "msg_00000114"
+    ]
+  },
+  {
+    "id": "mem_000009",
+    "type": "user_topic_pattern",
+    "subject": "且听小猪叫",
+    "content": "用户高频涉及主题: tech（72条命中）",
+    "stability": "medium",
+    "confidence": 0.64,
+    "source_refs": [
+      "msg_00000038",
+      "msg_00000045",
+      "msg_00000938",
+      "msg_00001386",
+      "msg_00001990"
+    ]
+  },
+  {
+    "id": "mem_000010",
+    "type": "user_topic_pattern",
+    "subject": "且听小猪叫",
+    "content": "用户高频涉及主题: relationship（1496条命中）",
+    "stability": "high",
+    "confidence": 0.76,
+    "source_refs": [
+      "msg_00000175",
+      "msg_00000232",
+      "msg_00000260",
+      "msg_00000287",
+      "msg_00000353"
+    ]
+  },
+  {
+    "id": "mem_000011",
+    "type": "user_topic_pattern",
+    "subject": "且听小猪叫",
+    "content": "用户高频涉及主题: logistics（112条命中）",
+    "stability": "medium",
+    "confidence": 0.76,
+    "source_refs": [
+      "msg_00000974",
+      "msg_00001780",
+      "msg_00001784",
+      "msg_00002440",
+      "msg_00002823"
+    ]
+  },
+  {
+    "id": "mem_000012",
+    "type": "user_topic_pattern",
+    "subject": "且听小猪叫",
+    "content": "用户高频涉及主题: humor_selfmock（78条命中）",
+    "stability": "medium",
+    "confidence": 0.64,
+    "source_refs": [
+      "msg_00001319",
+      "msg_00001647",
+      "msg_00001774",
+      "msg_00002321",
+      "msg_00002623"
+    ]
+  },
+  {
+    "id": "mem_000013",
+    "type": "relationship",
+    "subject": "target_user_relation",
+    "content": "关系语气以同辈/同伴互助为主，围绕学习与生活压力进行高频互通。",
+    "stability": "high",
+    "confidence": 0.83,
+    "source_refs": [
+      "msg_00000001"
+    ]
+  },
+  {
+    "id": "mem_000014",
+    "type": "interaction_style",
+    "subject": "target_user_relation",
+    "content": "对话节奏快，常由多条短消息组成一个完整意思。",
+    "stability": "high",
+    "confidence": 0.86,
+    "source_refs": [
+      "msg_00000005"
+    ]
+  },
+  {
+    "type": "interaction_timeline",
+    "subject": "target_user_relation",
+    "content": "2024-06 总消息 13579（王天予 4467 / 用户 9112）",
+    "stability": "high",
+    "confidence": 0.81,
+    "source_refs": [],
+    "id": "mem_000015"
+  },
+  {
+    "type": "interaction_timeline",
+    "subject": "target_user_relation",
+    "content": "2024-07 总消息 8475（王天予 3240 / 用户 5235）",
+    "stability": "high",
+    "confidence": 0.81,
+    "source_refs": [],
+    "id": "mem_000016"
+  },
+  {
+    "type": "interaction_timeline",
+    "subject": "target_user_relation",
+    "content": "2024-02 总消息 7708（王天予 3365 / 用户 4343）",
+    "stability": "high",
+    "confidence": 0.81,
+    "source_refs": [],
+    "id": "mem_000017"
+  },
+  {
+    "type": "interaction_timeline",
+    "subject": "target_user_relation",
+    "content": "2024-05 总消息 7533（王天予 2674 / 用户 4859）",
+    "stability": "high",
+    "confidence": 0.81,
+    "source_refs": [],
+    "id": "mem_000018"
+  },
+  {
+    "type": "interaction_timeline",
+    "subject": "target_user_relation",
+    "content": "2024-03 总消息 7267（王天予 2618 / 用户 4649）",
+    "stability": "high",
+    "confidence": 0.81,
+    "source_refs": [],
+    "id": "mem_000019"
+  },
+  {
+    "type": "interaction_timeline",
+    "subject": "target_user_relation",
+    "content": "2024-08 总消息 6127（王天予 2289 / 用户 3838）",
+    "stability": "high",
+    "confidence": 0.81,
+    "source_refs": [],
+    "id": "mem_000020"
+  },
+  {
+    "type": "interaction_timeline",
+    "subject": "target_user_relation",
+    "content": "2024-01 总消息 4817（王天予 2048 / 用户 2769）",
+    "stability": "high",
+    "confidence": 0.81,
+    "source_refs": [],
+    "id": "mem_000021"
+  },
+  {
+    "type": "interaction_timeline",
+    "subject": "target_user_relation",
+    "content": "2023-10 总消息 4304（王天予 1813 / 用户 2491）",
+    "stability": "high",
+    "confidence": 0.81,
+    "source_refs": [],
+    "id": "mem_000022"
+  },
+  {
+    "type": "interaction_timeline",
+    "subject": "target_user_relation",
+    "content": "2024-09 总消息 4230（王天予 1478 / 用户 2752）",
+    "stability": "high",
+    "confidence": 0.81,
+    "source_refs": [],
+    "id": "mem_000023"
+  },
+  {
+    "type": "interaction_timeline",
+    "subject": "target_user_relation",
+    "content": "2023-11 总消息 3449（王天予 1576 / 用户 1873）",
+    "stability": "high",
+    "confidence": 0.81,
+    "source_refs": [],
+    "id": "mem_000024"
+  },
+  {
+    "type": "interaction_timeline",
+    "subject": "target_user_relation",
+    "content": "2023-09 总消息 2690（王天予 1137 / 用户 1553）",
+    "stability": "high",
+    "confidence": 0.81,
+    "source_refs": [],
+    "id": "mem_000025"
+  },
+  {
+    "type": "interaction_timeline",
+    "subject": "target_user_relation",
+    "content": "2024-04 总消息 2438（王天予 879 / 用户 1559）",
+    "stability": "high",
+    "confidence": 0.81,
+    "source_refs": [],
+    "id": "mem_000026"
+  },
+  {
+    "type": "trigger_pattern",
+    "subject": "王天予",
+    "content": "在学业和时程压力场景下，王天予更倾向短句+情绪词+快速收束。",
+    "stability": "high",
+    "confidence": 0.84,
+    "source_refs": [
+      "msg_00000351",
+      "msg_00000382",
+      "msg_00000649",
+      "msg_00000654",
+      "msg_00001722",
+      "msg_00001752",
+      "msg_00002101",
+      "msg_00002150"
+    ],
+    "id": "mem_000027"
+  },
+  {
+    "type": "trigger_pattern",
+    "subject": "target_user_relation",
+    "content": "关系不确定时，更依赖快速在场回应来维持稳定。",
+    "stability": "medium",
+    "confidence": 0.74,
+    "source_refs": [],
+    "id": "mem_000028"
+  }
+]

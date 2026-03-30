@@ -1,0 +1,11 @@
+{
+  "input_file": "私聊_王天予.json",
+  "raw_message_count": 109220,
+  "normalized_message_count": 95819,
+  "segment_count": 828,
+  "rag_chunk_count": 9583,
+  "target_speaker": "王天予",
+  "target_message_count": 35825,
+  "persona_evidence_candidate_count": 14338,
+  "memory_candidate_count": 2
+}

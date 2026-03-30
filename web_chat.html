@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>王天予 Agent Chat</title>
+  <style>
+    :root {
+      --bg: #f5f7fb;
+      --panel: #ffffff;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --brand: #2563eb;
+      --brand-dark: #1d4ed8;
+      --bubble-user: #dbeafe;
+      --bubble-agent: #eef2ff;
+      --border: #e5e7eb;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: ui-sans-serif, -apple-system, "Segoe UI", "PingFang SC", "Noto Sans CJK SC", Arial, sans-serif;
+      color: var(--text);
+      background: radial-gradient(circle at 20% 10%, #e0ecff 0%, #f7f9fd 40%, #f5f7fb 100%);
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      padding: 20px;
+    }
+    .app {
+      width: 100%;
+      max-width: 860px;
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 10px 30px rgba(17, 24, 39, 0.08);
+    }
+    .header {
+      padding: 16px 18px;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      gap: 12px;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    .title { font-weight: 700; font-size: 18px; }
+    .sub { color: var(--muted); font-size: 13px; }
+    .row { display: flex; gap: 8px; align-items: center; }
+    .input {
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 8px 10px;
+      min-width: 200px;
+      outline: none;
+    }
+    .input:focus { border-color: #93c5fd; box-shadow: 0 0 0 3px #dbeafe; }
+    .btn {
+      border: none;
+      border-radius: 10px;
+      padding: 9px 12px;
+      cursor: pointer;
+      background: var(--brand);
+      color: #fff;
+      font-weight: 600;
+    }
+    .btn:hover { background: var(--brand-dark); }
+    .btn.secondary { background: #e5e7eb; color: #111827; }
+    .chat {
+      height: 60vh;
+      min-height: 360px;
+      overflow-y: auto;
+      padding: 14px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      background: linear-gradient(to bottom, #fcfcff, #f8fbff);
+    }
+    .msg { max-width: 80%; padding: 10px 12px; border-radius: 12px; white-space: pre-wrap; line-height: 1.45; }
+    .msg.user { align-self: flex-end; background: var(--bubble-user); border: 1px solid #bfdbfe; }
+    .msg.agent { align-self: flex-start; background: var(--bubble-agent); border: 1px solid #c7d2fe; }
+    .footer {
+      border-top: 1px solid var(--border);
+      padding: 12px;
+      display: grid;
+      gap: 8px;
+    }
+    textarea {
+      width: 100%;
+      min-height: 90px;
+      resize: vertical;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 10px;
+      font: inherit;
+      outline: none;
+    }
+    textarea:focus { border-color: #93c5fd; box-shadow: 0 0 0 3px #dbeafe; }
+    .status { color: var(--muted); font-size: 13px; min-height: 18px; }
+    .hint { font-size: 12px; color: var(--muted); }
+  </style>
+</head>
+<body>
+  <main class="app">
+    <section class="header">
+      <div>
+        <div class="title">王天予 Agent</div>
+        <div class="sub">Powered by /chat API</div>
+      </div>
+      <div class="row">
+        <label for="sid" class="sub">Session</label>
+        <input id="sid" class="input" />
+        <button id="resetBtn" class="btn secondary" type="button">重置会话</button>
+      </div>
+    </section>
+
+    <section id="chat" class="chat"></section>
+
+    <section class="footer">
+      <textarea id="message" placeholder="输入你的消息..."></textarea>
+      <div class="row">
+        <button id="sendBtn" class="btn" type="button">发送</button>
+        <div id="status" class="status"></div>
+      </div>
+      <div class="hint">提示：Enter 发送，Shift+Enter 换行。</div>
+    </section>
+  </main>
+
+  <script>
+    const sidInput = document.getElementById("sid");
+    const chatBox = document.getElementById("chat");
+    const messageInput = document.getElementById("message");
+    const sendBtn = document.getElementById("sendBtn");
+    const resetBtn = document.getElementById("resetBtn");
+    const statusEl = document.getElementById("status");
+
+    function initSessionId() {
+      const saved = localStorage.getItem("wty_session_id");
+      const fallback = "web_" + Math.random().toString(36).slice(2, 10);
+      const sid = saved || fallback;
+      sidInput.value = sid;
+      localStorage.setItem("wty_session_id", sid);
+    }
+
+    function setStatus(text) {
+      statusEl.textContent = text || "";
+    }
+
+    function addMsg(role, text) {
+      const div = document.createElement("div");
+      div.className = "msg " + (role === "user" ? "user" : "agent");
+      div.textContent = text;
+      chatBox.appendChild(div);
+      chatBox.scrollTop = chatBox.scrollHeight;
+    }
+
+    async function sendMessage() {
+      const message = messageInput.value.trim();
+      const sessionId = sidInput.value.trim();
+      if (!message || !sessionId) return;
+
+      localStorage.setItem("wty_session_id", sessionId);
+      addMsg("user", message);
+      messageInput.value = "";
+      setStatus("发送中...");
+      sendBtn.disabled = true;
+
+      try {
+        const res = await fetch("/chat", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ session_id: sessionId, message }),
+        });
+        const data = await res.json();
+        if (!res.ok) {
+          throw new Error(data.detail || "请求失败");
+        }
+        addMsg("agent", data.reply || "");
+        setStatus("已回复");
+      } catch (err) {
+        addMsg("agent", "请求失败：" + (err.message || String(err)));
+        setStatus("失败");
+      } finally {
+        sendBtn.disabled = false;
+      }
+    }
+
+    async function resetSession() {
+      const sessionId = sidInput.value.trim();
+      if (!sessionId) return;
+      setStatus("重置中...");
+      try {
+        const res = await fetch("/session/reset", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ session_id: sessionId }),
+        });
+        const data = await res.json();
+        if (!res.ok) throw new Error(data.detail || "重置失败");
+        chatBox.innerHTML = "";
+        setStatus("会话已重置");
+      } catch (err) {
+        setStatus("重置失败：" + (err.message || String(err)));
+      }
+    }
+
+    sendBtn.addEventListener("click", sendMessage);
+    resetBtn.addEventListener("click", resetSession);
+    messageInput.addEventListener("keydown", (e) => {
+      if (e.key === "Enter" && !e.shiftKey) {
+        e.preventDefault();
+        sendMessage();
+      }
+    });
+
+    initSessionId();
+    addMsg("agent", "你好，我是王天予。你可以直接开始聊天。");
+  </script>
+</body>
+</html>

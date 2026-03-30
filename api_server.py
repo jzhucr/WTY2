@@ -7,6 +7,7 @@ from typing import Any, Dict, List
 
 from dotenv import load_dotenv
 from fastapi import FastAPI, HTTPException
+from fastapi.responses import FileResponse
 from pydantic import BaseModel, Field
 
 import chat_runtime_openrouter as runtime
@@ -15,6 +16,7 @@ import chat_runtime_openrouter as runtime
 BASE_DIR = Path(__file__).resolve().parent
 DEFAULT_ENV_PATH = BASE_DIR / ".env"
 DEFAULT_SESSION_STORE_PATH = BASE_DIR / "prepared_data" / "api_sessions.json"
+DEFAULT_CHAT_PAGE_PATH = BASE_DIR / "web_chat.html"
 
 load_dotenv(dotenv_path=DEFAULT_ENV_PATH, override=False)
 
@@ -86,6 +88,13 @@ def _get_or_create_session(sessions: Dict[str, Dict[str, Any]], session_id: str)
 @app.get("/health")
 def health() -> Dict[str, str]:
     return {"status": "ok"}
+
+
+@app.get("/")
+def chat_page() -> FileResponse:
+    if not DEFAULT_CHAT_PAGE_PATH.exists():
+        raise HTTPException(status_code=404, detail="chat page not found")
+    return FileResponse(DEFAULT_CHAT_PAGE_PATH)
 
 
 @app.post("/chat", response_model=ChatResponse)
